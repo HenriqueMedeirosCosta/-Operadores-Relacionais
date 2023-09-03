@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+  double peso;
+  printf("Digite seu peso\n");
+  scanf("%lf", &peso);
+
+  if( peso >= 60.0){
+    printf(" Seu peso é maior que 60.0");
+  }else{
+    printf("Seu peso é menor que 60.0");
+  }
+  
+
+}
