@@ -1,1 +1,18 @@
+#include <stdio.h>
+
+int main() {
+
+  // operadores relacionais ou de comparaçao
+  int a = 18, idade;
+ printf("Digite sua idade\n");
+  scanf("%d", &idade);
+
+  if(idade >= a){
+   printf("Você é maior de idade\n");
+  }
+  else {
+    printf("Você não é maior de idade");
+    
+  }
+}
 
